@@ -1,0 +1,3 @@
+- We need the pinterest likes and repin activity data, which can be obtained from https://nms.kcl.ac.uk/nishanth.sastry/projects/cd-gain/dataset.html
+- Since we cannot redistribute the data according to the terms from the data source, the pre-processed data is not avaialble. You have to download and process the data by yourself.
+- For data processing, run DataProcess.ipynb first, then run DataPartition.ipynb

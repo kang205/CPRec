@@ -1,0 +1,5 @@
+- The raw reddit data can be obtained from https://www.reddit.com/r/datasets/comments/65o7py/updated_reddit_comment_dataset_as_torrents/
+- Specifically, you need two files, RS_2017-03 (17G) and RC_2017-03(40G), for submissions and comments respectively.
+- For data processing, run DataProcess.ipynb first, then run DataPartition.ipynb
+- The pre-processed data is available in the folder (RedditCorePartitioned.npy).  
+- Usage: [user_train, user_validation, user_test, usernum, itemnum] = np.load('RedditCorePartitioned.npy')
